@@ -1,0 +1,113 @@
+* { 
+    margin: 0;
+    padding:  0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../../assets/img/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.head {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(135, 206, 235, 0.9); 
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.head .nbar a {
+    text-decoration: none;
+    color: #001e4d;
+    font-weight: bold;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.head .nbar a:hover {
+    color: #079431; 
+}
+
+.container {
+    background: rgba(13, 77, 179, 0.8); 
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    background: #fff;
+    text-align: center;
+}
+
+.quiz {
+    padding: 20px 0;
+    background: #fff;
+    
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 15px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+
+.correct {
+    background: #079431;
+}
+
+.Incorrect {
+    background: rgb(255, 2, 2);
+}

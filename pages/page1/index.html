@@ -5,19 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Page</title>
     <link rel="stylesheet" href="../page1/assets/css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header class="head">
         <nav class="nbar">
-            <a href="../../index.html" class="dmp" data-translate="HOME">home</a>
-            <a href="../page1/index.html" class="dmp" data-translate="QUIZQUEST">quizquest</a>
+            <a href="../../index.html" class="dmp" data-translate="HOME">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+            <a href="../page1/index.html" class="dmp" data-translate="QUIZQUEST">
+                <i class="fa-solid fa-brain"></i> QuizQuest
+            </a>
         </nav>
     </header>
     <div class="container"> 
         <h1>QUIZQUEST</h1>
-        <p id="question"></p>
-        
+        <div class="quiz">
+            <div class="h2">
+                <h2 id="question">Questions for you</h2>
+                <div id="answer-buttons">
+                    <button class="btn">A</button>
+                    <button class="btn">B</button>
+                    <button class="btn">C</button>
+                    <button class="btn">D</button>
+                </div>
+                <button id="next-btn" class="">Next Question</button>
+            </div>
+        </div>
     </div>
+    <script src="../page1/assets/js/scripts.js"></script>
 </body>
 </html>
